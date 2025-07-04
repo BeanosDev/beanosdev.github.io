@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		fadeInDelay += 500;
 		cards[i].style.animationDelay = fadeInDelay + 'ms';
 		cards[i].addEventListener('animationend', () => {
-			// alert('BALLS');
 			cards[i].style.opacity = 1;
 			setTimeout(() => {
 				cards[i].classList.add('card-hover');
@@ -27,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function httpGet(theUrl) {
 	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+	xmlHttp.open( "GET", theUrl, false );
 	xmlHttp.send( null );
 	return xmlHttp.responseText;
 }
