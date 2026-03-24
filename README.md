@@ -1,10 +1,10 @@
-# beanos.dev
+# beanos.one
 
 Welcome to my GitHub Pages website! This site is hosted using [GitHub Pages](https://pages.github.com/) and serves as a platform to showcase my web development projects, share ideas, and blog about various topics.
 
 ## Getting Started
 
-Visit the website here: [https://beanos.dev/](https://beanos.dev/)
+Visit the website here: [beanos.one](https://beanos.one/)
 
 ### Repository Structure
 
